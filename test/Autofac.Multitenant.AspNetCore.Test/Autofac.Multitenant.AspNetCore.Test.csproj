@@ -23,7 +23,6 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
-    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.0.0" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.0-beta008">
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
@@ -37,6 +36,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\Autofac.Extensions.DependencyInjection\Autofac.Extensions.DependencyInjection.csproj" />
     <ProjectReference Include="..\..\src\Autofac.Multitenant\Autofac.Multitenant.csproj" />
   </ItemGroup>
 

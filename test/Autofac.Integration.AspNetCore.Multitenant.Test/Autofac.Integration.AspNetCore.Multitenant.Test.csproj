@@ -11,6 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\Autofac.Extensions.DependencyInjection\Autofac.Extensions.DependencyInjection.csproj" />
     <ProjectReference Include="..\..\src\Autofac.Integration.AspNetCore.Multitenant\Autofac.Integration.AspNetCore.Multitenant.csproj" />
   </ItemGroup>
 

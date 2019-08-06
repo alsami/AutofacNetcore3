@@ -6,9 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Autofac.AspNetCore.Multitenant" Version="1.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Autofac.Extensions.DependencyInjection\Autofac.Extensions.DependencyInjection.csproj" />
+    <ProjectReference Include="..\Autofac.Integration.AspNetCore.Multitenant\Autofac.Integration.AspNetCore.Multitenant.csproj" />
   </ItemGroup>
 
 </Project>
