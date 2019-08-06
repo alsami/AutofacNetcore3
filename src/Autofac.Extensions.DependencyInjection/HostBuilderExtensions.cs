@@ -1,4 +1,4 @@
-﻿// This software is part of the Autofac IoC container
+// This software is part of the Autofac IoC container
 // Copyright © 2017 Autofac Contributors
 // https://autofac.org
 //
@@ -23,26 +23,24 @@
 // FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 // OTHER DEALINGS IN THE SOFTWARE.
 
+#if NETCOREAPP3_0
 using System;
-using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 namespace Autofac.Extensions.DependencyInjection
 {
     /// <summary>
-    /// Extension methods on <see cref="IServiceCollection"/> to register the <see cref="IServiceProviderFactory{TContainerBuilder}"/>.
+    /// TODO.
     /// </summary>
-    public static class ServiceCollectionExtensions
+    public static class HostBuilderExtensions
     {
         /// <summary>
-        /// Adds the <see cref="AutofacServiceProviderFactory"/> to the service collection.
+        /// TODO.
         /// </summary>
-        /// <param name="services">The service collection to add the factory to.</param>
-        /// <param name="configurationAction">Action on a <see cref="ContainerBuilder"/> that adds component registrations to the container.</param>
-        /// <returns>The service collection.</returns>
-        public static IServiceCollection AddAutofac(this IServiceCollection services, Action<ContainerBuilder> configurationAction = null)
-        {
-            return services.AddSingleton<IServiceProviderFactory<ContainerBuilder>>(
-                new AutofacServiceProviderFactory(configurationAction));
-        }
+        /// <param name="hostBuilder">TODO s.</param>
+        /// <param name="configureAction">TODO sss.</param>
+        public static IHostBuilder UseAutofac(this IHostBuilder hostBuilder, Action<ContainerBuilder> configureAction = null) =>
+            hostBuilder.UseServiceProviderFactory(new AutofacServiceProviderFactory(configureAction));
     }
 }
+#endif
