@@ -25,6 +25,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.Multitenant.AspNetC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.Multitenant.Test", "test\Autofac.Multitenant.Test\Autofac.Multitenant.Test.csproj", "{E8F5F89A-DAC7-4F4C-BF88-59613F91069C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{E87EB321-B17F-4A04-A528-7CC9A5E575A1}"
+ProjectSection(SolutionItems) = preProject
+	issue_36.md = issue_36.md
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
