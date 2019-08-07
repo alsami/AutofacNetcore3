@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace AutofacNectore3
+namespace AutofacNetcore3
 {
     public interface ISomeService
     {

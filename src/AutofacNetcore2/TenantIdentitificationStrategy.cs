@@ -21,9 +21,9 @@ namespace AutofacNetcore2
 
         public bool TryIdentifyTenant(out object tenantId)
         {
-            tenantId = httpContextAccessor.HttpContext.Request.Headers["tenantId"];
+            tenantId = httpContextAccessor?.HttpContext?.Request.Headers["tenantId"];
 
-            var tenantIdStringed = tenantId.ToString();
+            var tenantIdStringed = tenantId?.ToString();
 
             return !string.IsNullOrWhiteSpace(tenantIdStringed) &&
                    TenantIdentitificationStrategy.TenantIds.Contains(tenantIdStringed,

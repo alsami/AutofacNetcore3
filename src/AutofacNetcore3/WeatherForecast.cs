@@ -1,6 +1,6 @@
 using System;
 
-namespace AutofacNectore3
+namespace AutofacNetcore3
 {
     public class WeatherForecast
     {

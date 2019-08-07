@@ -5,32 +5,32 @@ VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{05DED748-5872-40B8-A809-08D523E7E51D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutofacNectore3", "src\AutofacNectore3\AutofacNectore3.csproj", "{2022498D-65DC-4E85-8689-3FE07DEA6D32}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacNetcore2", "src\AutofacNetcore2\AutofacNetcore2.csproj", "{21EFA0DB-5CAE-41AB-ACDF-A5B107C00CE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutofacNetcore2", "src\AutofacNetcore2\AutofacNetcore2.csproj", "{21EFA0DB-5CAE-41AB-ACDF-A5B107C00CE4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A4988988-6DCC-42B3-8310-6B899E61B970}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.Extensions.DependencyInjection", "src\Autofac.Extensions.DependencyInjection\Autofac.Extensions.DependencyInjection.csproj", "{5A661290-9B76-4149-9572-2576E426C1B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autofac.Extensions.DependencyInjection", "src\Autofac.Extensions.DependencyInjection\Autofac.Extensions.DependencyInjection.csproj", "{5A661290-9B76-4149-9572-2576E426C1B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.Multitenant", "src\Autofac.Multitenant\Autofac.Multitenant.csproj", "{1FF85B57-18F6-4BE8-8FF0-BBD59209732E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autofac.Multitenant", "src\Autofac.Multitenant\Autofac.Multitenant.csproj", "{1FF85B57-18F6-4BE8-8FF0-BBD59209732E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.Integration.AspNetCore.Multitenant", "src\Autofac.Integration.AspNetCore.Multitenant\Autofac.Integration.AspNetCore.Multitenant.csproj", "{A6051091-DBE1-4DAF-845B-0FBD240225FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autofac.Integration.AspNetCore.Multitenant", "src\Autofac.Integration.AspNetCore.Multitenant\Autofac.Integration.AspNetCore.Multitenant.csproj", "{A6051091-DBE1-4DAF-845B-0FBD240225FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.Extensions.DependencyInjection.Test", "test\Autofac.Extensions.DependencyInjection.Test\Autofac.Extensions.DependencyInjection.Test.csproj", "{5B0965E6-2052-4416-80CD-C7891F8DE545}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autofac.Extensions.DependencyInjection.Test", "test\Autofac.Extensions.DependencyInjection.Test\Autofac.Extensions.DependencyInjection.Test.csproj", "{5B0965E6-2052-4416-80CD-C7891F8DE545}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.Integration.AspNetCore.Multitenant.Test", "test\Autofac.Integration.AspNetCore.Multitenant.Test\Autofac.Integration.AspNetCore.Multitenant.Test.csproj", "{45707AEE-AAA9-4596-B1F3-F2D6AA59D6BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autofac.Integration.AspNetCore.Multitenant.Test", "test\Autofac.Integration.AspNetCore.Multitenant.Test\Autofac.Integration.AspNetCore.Multitenant.Test.csproj", "{45707AEE-AAA9-4596-B1F3-F2D6AA59D6BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.Multitenant.AspNetCore.Test", "test\Autofac.Multitenant.AspNetCore.Test\Autofac.Multitenant.AspNetCore.Test.csproj", "{5B1C1511-66B7-48DB-8832-C993DF6FCD56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autofac.Multitenant.AspNetCore.Test", "test\Autofac.Multitenant.AspNetCore.Test\Autofac.Multitenant.AspNetCore.Test.csproj", "{5B1C1511-66B7-48DB-8832-C993DF6FCD56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.Multitenant.Test", "test\Autofac.Multitenant.Test\Autofac.Multitenant.Test.csproj", "{E8F5F89A-DAC7-4F4C-BF88-59613F91069C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Autofac.Multitenant.Test", "test\Autofac.Multitenant.Test\Autofac.Multitenant.Test.csproj", "{E8F5F89A-DAC7-4F4C-BF88-59613F91069C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{E87EB321-B17F-4A04-A528-7CC9A5E575A1}"
 	ProjectSection(SolutionItems) = preProject
 		issue_36.md = issue_36.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacNetcore3.Rootscope", "src\AutofacNetcore3.Rootscope\AutofacNetcore3.Rootscope.csproj", "{845F6320-2C2C-48DE-9DFA-987C60468FCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutofacNetcore3.Rootscope", "src\AutofacNetcore3.Rootscope\AutofacNetcore3.Rootscope.csproj", "{845F6320-2C2C-48DE-9DFA-987C60468FCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutofacNetcore3", "src\AutofacNetcore3\AutofacNetcore3.csproj", "{35CD6167-2103-4689-A369-952B7BDF4590}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,18 +42,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2022498D-65DC-4E85-8689-3FE07DEA6D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2022498D-65DC-4E85-8689-3FE07DEA6D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2022498D-65DC-4E85-8689-3FE07DEA6D32}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{2022498D-65DC-4E85-8689-3FE07DEA6D32}.Debug|x64.Build.0 = Debug|Any CPU
-		{2022498D-65DC-4E85-8689-3FE07DEA6D32}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{2022498D-65DC-4E85-8689-3FE07DEA6D32}.Debug|x86.Build.0 = Debug|Any CPU
-		{2022498D-65DC-4E85-8689-3FE07DEA6D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2022498D-65DC-4E85-8689-3FE07DEA6D32}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2022498D-65DC-4E85-8689-3FE07DEA6D32}.Release|x64.ActiveCfg = Release|Any CPU
-		{2022498D-65DC-4E85-8689-3FE07DEA6D32}.Release|x64.Build.0 = Release|Any CPU
-		{2022498D-65DC-4E85-8689-3FE07DEA6D32}.Release|x86.ActiveCfg = Release|Any CPU
-		{2022498D-65DC-4E85-8689-3FE07DEA6D32}.Release|x86.Build.0 = Release|Any CPU
 		{21EFA0DB-5CAE-41AB-ACDF-A5B107C00CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{21EFA0DB-5CAE-41AB-ACDF-A5B107C00CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21EFA0DB-5CAE-41AB-ACDF-A5B107C00CE4}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -162,12 +150,23 @@ Global
 		{845F6320-2C2C-48DE-9DFA-987C60468FCD}.Release|x64.Build.0 = Release|Any CPU
 		{845F6320-2C2C-48DE-9DFA-987C60468FCD}.Release|x86.ActiveCfg = Release|Any CPU
 		{845F6320-2C2C-48DE-9DFA-987C60468FCD}.Release|x86.Build.0 = Release|Any CPU
+		{35CD6167-2103-4689-A369-952B7BDF4590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35CD6167-2103-4689-A369-952B7BDF4590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35CD6167-2103-4689-A369-952B7BDF4590}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{35CD6167-2103-4689-A369-952B7BDF4590}.Debug|x64.Build.0 = Debug|Any CPU
+		{35CD6167-2103-4689-A369-952B7BDF4590}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{35CD6167-2103-4689-A369-952B7BDF4590}.Debug|x86.Build.0 = Debug|Any CPU
+		{35CD6167-2103-4689-A369-952B7BDF4590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35CD6167-2103-4689-A369-952B7BDF4590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35CD6167-2103-4689-A369-952B7BDF4590}.Release|x64.ActiveCfg = Release|Any CPU
+		{35CD6167-2103-4689-A369-952B7BDF4590}.Release|x64.Build.0 = Release|Any CPU
+		{35CD6167-2103-4689-A369-952B7BDF4590}.Release|x86.ActiveCfg = Release|Any CPU
+		{35CD6167-2103-4689-A369-952B7BDF4590}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{2022498D-65DC-4E85-8689-3FE07DEA6D32} = {05DED748-5872-40B8-A809-08D523E7E51D}
 		{21EFA0DB-5CAE-41AB-ACDF-A5B107C00CE4} = {05DED748-5872-40B8-A809-08D523E7E51D}
 		{5A661290-9B76-4149-9572-2576E426C1B9} = {05DED748-5872-40B8-A809-08D523E7E51D}
 		{1FF85B57-18F6-4BE8-8FF0-BBD59209732E} = {05DED748-5872-40B8-A809-08D523E7E51D}
@@ -177,6 +176,7 @@ Global
 		{5B1C1511-66B7-48DB-8832-C993DF6FCD56} = {A4988988-6DCC-42B3-8310-6B899E61B970}
 		{E8F5F89A-DAC7-4F4C-BF88-59613F91069C} = {A4988988-6DCC-42B3-8310-6B899E61B970}
 		{845F6320-2C2C-48DE-9DFA-987C60468FCD} = {05DED748-5872-40B8-A809-08D523E7E51D}
+		{35CD6167-2103-4689-A369-952B7BDF4590} = {05DED748-5872-40B8-A809-08D523E7E51D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF48CC43-D402-4FD9-A667-A00E83755174}
