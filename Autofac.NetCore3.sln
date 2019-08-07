@@ -26,9 +26,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.Multitenant.Test", "test\Autofac.Multitenant.Test\Autofac.Multitenant.Test.csproj", "{E8F5F89A-DAC7-4F4C-BF88-59613F91069C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{E87EB321-B17F-4A04-A528-7CC9A5E575A1}"
-ProjectSection(SolutionItems) = preProject
-	issue_36.md = issue_36.md
-EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		issue_36.md = issue_36.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacNetcore3.Rootscope", "src\AutofacNetcore3.Rootscope\AutofacNetcore3.Rootscope.csproj", "{845F6320-2C2C-48DE-9DFA-987C60468FCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -148,6 +150,18 @@ Global
 		{E8F5F89A-DAC7-4F4C-BF88-59613F91069C}.Release|x64.Build.0 = Release|Any CPU
 		{E8F5F89A-DAC7-4F4C-BF88-59613F91069C}.Release|x86.ActiveCfg = Release|Any CPU
 		{E8F5F89A-DAC7-4F4C-BF88-59613F91069C}.Release|x86.Build.0 = Release|Any CPU
+		{845F6320-2C2C-48DE-9DFA-987C60468FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{845F6320-2C2C-48DE-9DFA-987C60468FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{845F6320-2C2C-48DE-9DFA-987C60468FCD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{845F6320-2C2C-48DE-9DFA-987C60468FCD}.Debug|x64.Build.0 = Debug|Any CPU
+		{845F6320-2C2C-48DE-9DFA-987C60468FCD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{845F6320-2C2C-48DE-9DFA-987C60468FCD}.Debug|x86.Build.0 = Debug|Any CPU
+		{845F6320-2C2C-48DE-9DFA-987C60468FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{845F6320-2C2C-48DE-9DFA-987C60468FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{845F6320-2C2C-48DE-9DFA-987C60468FCD}.Release|x64.ActiveCfg = Release|Any CPU
+		{845F6320-2C2C-48DE-9DFA-987C60468FCD}.Release|x64.Build.0 = Release|Any CPU
+		{845F6320-2C2C-48DE-9DFA-987C60468FCD}.Release|x86.ActiveCfg = Release|Any CPU
+		{845F6320-2C2C-48DE-9DFA-987C60468FCD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -162,6 +176,7 @@ Global
 		{45707AEE-AAA9-4596-B1F3-F2D6AA59D6BE} = {A4988988-6DCC-42B3-8310-6B899E61B970}
 		{5B1C1511-66B7-48DB-8832-C993DF6FCD56} = {A4988988-6DCC-42B3-8310-6B899E61B970}
 		{E8F5F89A-DAC7-4F4C-BF88-59613F91069C} = {A4988988-6DCC-42B3-8310-6B899E61B970}
+		{845F6320-2C2C-48DE-9DFA-987C60468FCD} = {05DED748-5872-40B8-A809-08D523E7E51D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF48CC43-D402-4FD9-A667-A00E83755174}

@@ -41,6 +41,16 @@ namespace Autofac.Extensions.DependencyInjection
         /// <param name="configureAction">TODO sss.</param>
         public static IHostBuilder UseAutofac(this IHostBuilder hostBuilder, Action<ContainerBuilder> configureAction = null) =>
             hostBuilder.UseServiceProviderFactory(new AutofacServiceProviderFactory(configureAction));
+
+        /// <summary>
+        /// Todo.
+        /// </summary>
+        /// <param name="hostBuilder">Todo 1.</param>
+        /// <param name="getRootScopeFunc">Todo 2.</param>
+        /// <param name="configureAction">Todo 3.</param>
+        /// <returns>Todo 4.</returns>
+        public static IHostBuilder UseAutofac(this IHostBuilder hostBuilder, Func<ILifetimeScope> getRootScopeFunc, Action<ContainerBuilder> configureAction = null) =>
+            hostBuilder.UseServiceProviderFactory(new AutofacRootScopeServiceProviderFactory(getRootScopeFunc, configureAction));
     }
 }
 #endif
