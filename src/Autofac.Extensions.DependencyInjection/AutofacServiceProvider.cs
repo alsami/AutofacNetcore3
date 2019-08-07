@@ -86,6 +86,14 @@ namespace Autofac.Extensions.DependencyInjection
             return this._lifetimeScope.ResolveOptional(serviceType);
         }
 
+#if NETCOREAPP3_0
+        /// <summary>
+        /// Gets the Autofac LifetimeScope.
+        /// </summary>
+        // ReSharper disable once ConvertToAutoPropertyWhenPossible
+        public ILifetimeScope LifetimeScope => _lifetimeScope;
+#endif
+
         /// <summary>
         /// Releases unmanaged and - optionally - managed resources.
         /// </summary>
