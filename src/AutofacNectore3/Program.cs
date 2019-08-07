@@ -13,7 +13,7 @@ namespace AutofacNectore3
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .UseServiceProviderFactory(new AutofacServiceProviderFactory())
+                .UseAutofac()
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
 
